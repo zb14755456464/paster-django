@@ -1,0 +1,8 @@
+include requirements.txt test-requirements.txt
+include tox.ini
+
+graft deploy
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.mo
