@@ -1,6 +1,0 @@
-[console_scripts]
-deploy = lico.job.test_app.cmd:main
-
-[paste.app_factory]
-main = lico.job.test_app.factory:make_application
-
