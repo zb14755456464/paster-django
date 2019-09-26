@@ -1,8 +1,16 @@
 #coding:utf-8
 from django.http import HttpResponse
-from django.conf import settings
+from rest_framework.views import APIView
+import json
 
 
-def index(request):
-    print(settings.DEBUG)
-    return HttpResponse("index")
+class DogView(APIView):
+
+    def get(self,request,*args,**kwargs):
+        print(request)
+        print(request.user)
+        ret  = {
+            'code':1000,
+            'msg':'xxx'
+        }
+        return HttpResponse(json.dumps(ret),status=201)

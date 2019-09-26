@@ -44,6 +44,19 @@ TEMPLATES = [
     },
 ]
 
+
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": ('lico.job.test_app.plugins.MyAuthentication', ),
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    ),
+    'DEFAULT_VERSIONING_CLASS':
+        'rest_framework.versioning.NamespaceVersioning',
+    'EXCEPTION_HANDLER': 'lico.job.test_app.common.exception_handler',
+}
+
+
 WSGI_APPLICATION = 'lico.job.test_app.wsgi.application'
 
 
