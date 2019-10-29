@@ -29,4 +29,5 @@ lico/job/test_app/tests.py
 lico/job/test_app/urls.py
 lico/job/test_app/views.py
 lico/job/test_app/wsgi.py
+lico/job/test_app/migrations/0001_lico_5_4_0.py
 lico/job/test_app/migrations/__init__.py
