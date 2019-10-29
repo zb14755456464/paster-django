@@ -1,0 +1,9 @@
+action: py27, msg: getenv
+cwd: /home/roo/Desktop/projects/paster-django/.tox
+cmd: /usr/bin/python3.6 -m virtualenv --python /usr/bin/python2.7 py27
+  No LICENSE.txt / LICENSE found in source
+New python executable in /home/roo/Desktop/projects/paster-django/.tox/py27/bin/python2.7
+Also creating executable in /home/roo/Desktop/projects/paster-django/.tox/py27/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /usr/bin/python2.7

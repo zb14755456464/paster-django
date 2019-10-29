@@ -1,0 +1,4 @@
+Collecting django-configurations
+  Downloading https://files.pythonhosted.org/packages/a3/6a/cfa9a6d1901217e91d93ee6e54620716a566a413466589035bdbe9d3bb83/django_configurations-2.1-py2.py3-none-any.whl
+Installing collected packages: django-configurations
+Successfully installed django-configurations-2.1

@@ -1,0 +1,98 @@
+action: GLOB, msg: packaging
+cwd: /home/roo/Desktop/projects/paster-django
+cmd: /usr/bin/python3.6 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing deploy.egg-info/PKG-INFO
+writing dependency_links to deploy.egg-info/dependency_links.txt
+writing entry points to deploy.egg-info/entry_points.txt
+writing namespace_packages to deploy.egg-info/namespace_packages.txt
+writing requirements to deploy.egg-info/requires.txt
+writing top-level names to deploy.egg-info/top_level.txt
+reading manifest file 'deploy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+warning: no previously-included files matching '*.mo' found under directory '*'
+writing manifest file 'deploy.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating deploy-5.4.0
+creating deploy-5.4.0/deploy.egg-info
+creating deploy-5.4.0/etc
+creating deploy-5.4.0/lico
+creating deploy-5.4.0/lico/job
+creating deploy-5.4.0/lico/job/test_app
+creating deploy-5.4.0/lico/job/test_app/migrations
+copying files to deploy-5.4.0...
+copying MANIFEST.in -> deploy-5.4.0
+copying README.md -> deploy-5.4.0
+copying requirements.txt -> deploy-5.4.0
+copying setup.cfg -> deploy-5.4.0
+copying setup.py -> deploy-5.4.0
+copying test-requirements.txt -> deploy-5.4.0
+copying tox.ini -> deploy-5.4.0
+copying deploy.egg-info/PKG-INFO -> deploy-5.4.0/deploy.egg-info
+copying deploy.egg-info/SOURCES.txt -> deploy-5.4.0/deploy.egg-info
+copying deploy.egg-info/dependency_links.txt -> deploy-5.4.0/deploy.egg-info
+copying deploy.egg-info/entry_points.txt -> deploy-5.4.0/deploy.egg-info
+copying deploy.egg-info/namespace_packages.txt -> deploy-5.4.0/deploy.egg-info
+copying deploy.egg-info/not-zip-safe -> deploy-5.4.0/deploy.egg-info
+copying deploy.egg-info/requires.txt -> deploy-5.4.0/deploy.egg-info
+copying deploy.egg-info/top_level.txt -> deploy-5.4.0/deploy.egg-info
+copying etc/config.ini -> deploy-5.4.0/etc
+copying lico/__init__.py -> deploy-5.4.0/lico
+copying lico/job/__init__.py -> deploy-5.4.0/lico/job
+copying lico/job/test_app/__init__.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/admin.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/apps.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/cmd.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/common.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/factory.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/models.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/plugins.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/settings.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/tests.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/urls.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/views.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/wsgi.py -> deploy-5.4.0/lico/job/test_app
+copying lico/job/test_app/migrations/__init__.py -> deploy-5.4.0/lico/job/test_app/migrations
+Writing deploy-5.4.0/setup.cfg
+creating '.tox/dist/deploy-5.4.0.zip' and adding 'deploy-5.4.0' to it
+adding 'deploy-5.4.0/MANIFEST.in'
+adding 'deploy-5.4.0/README.md'
+adding 'deploy-5.4.0/requirements.txt'
+adding 'deploy-5.4.0/setup.cfg'
+adding 'deploy-5.4.0/setup.py'
+adding 'deploy-5.4.0/test-requirements.txt'
+adding 'deploy-5.4.0/tox.ini'
+adding 'deploy-5.4.0/PKG-INFO'
+adding 'deploy-5.4.0/deploy.egg-info/PKG-INFO'
+adding 'deploy-5.4.0/deploy.egg-info/SOURCES.txt'
+adding 'deploy-5.4.0/deploy.egg-info/dependency_links.txt'
+adding 'deploy-5.4.0/deploy.egg-info/entry_points.txt'
+adding 'deploy-5.4.0/deploy.egg-info/namespace_packages.txt'
+adding 'deploy-5.4.0/deploy.egg-info/not-zip-safe'
+adding 'deploy-5.4.0/deploy.egg-info/requires.txt'
+adding 'deploy-5.4.0/deploy.egg-info/top_level.txt'
+adding 'deploy-5.4.0/etc/config.ini'
+adding 'deploy-5.4.0/lico/__init__.py'
+adding 'deploy-5.4.0/lico/job/__init__.py'
+adding 'deploy-5.4.0/lico/job/test_app/__init__.py'
+adding 'deploy-5.4.0/lico/job/test_app/admin.py'
+adding 'deploy-5.4.0/lico/job/test_app/apps.py'
+adding 'deploy-5.4.0/lico/job/test_app/cmd.py'
+adding 'deploy-5.4.0/lico/job/test_app/common.py'
+adding 'deploy-5.4.0/lico/job/test_app/factory.py'
+adding 'deploy-5.4.0/lico/job/test_app/models.py'
+adding 'deploy-5.4.0/lico/job/test_app/plugins.py'
+adding 'deploy-5.4.0/lico/job/test_app/settings.py'
+adding 'deploy-5.4.0/lico/job/test_app/tests.py'
+adding 'deploy-5.4.0/lico/job/test_app/urls.py'
+adding 'deploy-5.4.0/lico/job/test_app/views.py'
+adding 'deploy-5.4.0/lico/job/test_app/wsgi.py'
+adding 'deploy-5.4.0/lico/job/test_app/migrations/__init__.py'
+removing 'deploy-5.4.0' (and everything under it)
