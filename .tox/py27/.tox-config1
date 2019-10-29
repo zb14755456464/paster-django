@@ -1,6 +1,0 @@
-c5ba81ef6142c8949a3e86f9d7432942 /usr/bin/python2.7
-3.8.6 0 0 0
-00000000000000000000000000000000 -r/home/roo/Desktop/projects/paster-django/requirements.txt
-00000000000000000000000000000000 -r/home/roo/Desktop/projects/paster-django/test-requirements.txt
-00000000000000000000000000000000 kubernetes>=9.0
-00000000000000000000000000000000 lico-fs
