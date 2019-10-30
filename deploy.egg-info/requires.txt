@@ -1,2 +1,3 @@
 Django
 django-pastedeploy-settings
+djangorestframework~=3.7
