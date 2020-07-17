@@ -1,7 +1,7 @@
 # 通过 gunicorn django-paster-settings 部署django
 # 项目打包安装
 cd paster-django
-python3 setup.py insatll
+python3 setup.py install
 # 校验启动命令是否正确
 deploy -h 
 # 启动项目
